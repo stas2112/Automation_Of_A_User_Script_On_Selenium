@@ -1,0 +1,14 @@
+<?xml version= "1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Search">
+        <classes>
+            <class name="tests.AdminPanelLoginTest.LoginPageTest"></class>
+            <class name="tests.HomeAdminPanelTest.HomeAdminPanelTest"></class>
+            <class name="tests.AddEntryAndSave.AddEntryAndSave"></class>
+            <class name="tests.BlogTest.BlogTest"></class>
+            <class name="tests.DeleteBlogTest.DeleteBlogTest"></class>
+        </classes>
+    </test>
+</suite>
